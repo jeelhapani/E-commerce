@@ -35,3 +35,12 @@ module.exports = mongoConnection();
 // };
 
 // module.exports = { connection, mysqlQuery };
+
+
+
+
+// connection.getConnection((err, conn) => {
+//     if (err) throw err;
+//     console.log("DB Connected Successfully!");  
+//     conn.release();
+// });
